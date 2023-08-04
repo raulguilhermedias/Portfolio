@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+header > nav > h1, p {
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+}
+
+main {
+    padding: ;
+    width: 800px;
+    height: 500px;
+    text-align: center;
+    
+}
+
+main > article > h1 {
+    font-size: 3em;
+
+}
+
+article img {
+    padding: 15px;
+}
+
+i#burguer {
+    display: block;
+    text-align: right;
+    
+}
