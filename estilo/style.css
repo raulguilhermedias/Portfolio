@@ -43,5 +43,83 @@ div.pad-3 {
 }
 
 div#language {
-    
+    overflow: auto;
+}
+
+div#react {
+    border-radius: 15px;
+    text-align: center;
+    width: 80px;
+    height: 70px;
+    vertical-align: middle;
+    transition: 0.5s ease-out;
+    font-size: 20px;
+    color: #000;
+    padding-top: 5px;
+    background-color: rgb(156, 209, 255);
+}
+
+div#js {
+    border-radius: 15px;
+    text-align: center;
+    width: 80px;
+    height: 70px;
+    vertical-align: middle;
+    transition: 0.5s ease-out;
+    font-size: 20px;
+    color: #000;
+    padding-top: 5px;
+    background-color: #F5DE22;
+}
+
+div#ts {
+    border-radius: 15px;
+    text-align: center;
+    width: 80px;
+    height: 70px;
+    vertical-align: middle;
+    transition: 0.5s ease-out;
+    font-size: 20px;
+    color: #000;
+    padding-top: 5px;
+    background-color: #377CC8;
+}
+
+div#html {
+    border-radius: 15px;
+    text-align: center;
+    width: 80px;
+    height: 70px;
+    vertical-align: middle;
+    transition: 0.5s ease-out;
+    font-size: 20px;
+    color: #000;
+    padding-top: 5px;
+    background-color: #E5532D;
+}
+
+div#css {
+    border-radius: 15px;
+    text-align: center;
+    width: 80px;
+    height: 70px;
+    vertical-align: middle;
+    transition: 0.5s ease-out;
+    font-size: 20px;
+    color: #000;
+    padding-top: 5px;
+    background-color: #2D53E5;
+}
+
+div#godot {
+    border-radius: 15px;
+    text-align: center;
+    width: 80px;
+    height: 70px;
+    vertical-align: middle;
+    transition: 0.5s ease-out;
+    font-size: 20px;
+    color: #000;
+    padding-top: 5px;
+    background-color: #4D90C1;
 }
