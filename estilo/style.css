@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    height: 500px;
+    height: 1500px;
 }
 
 header > h1, p {
@@ -24,6 +24,14 @@ header > h1, p {
     color: aliceblue;
     text-align: center;
     font-size: 40px;
+}
+
+section#home {
+    background-image: url('../imagens/e6a174e13938913a57d287759120cbcb.jpg');
+    background-position: right center;
+    height: 700px;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section > h1 {
@@ -194,7 +202,7 @@ div#playstore {
     color: transparent;
     padding-top: 5px;
     background-color:  rgb(58, 171, 88);
-    background: linear-gradient(135deg, rgb(251, 190, 12) 0%, rgb(58, 171, 88)  70%);
+    background: linear-gradient(135deg, rgb(34, 138, 51) 0%, rgb(58, 171, 88)  70%);
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -309,8 +317,9 @@ div#pad1 {
 img.react {
     max-width: 100%;
     max-height: 100%;
-    width: 80px;
-    height: 70px;
+    width: 70px;
+    height: 60px;
+    margin-top: 150px;
 }
 
 img.js {
@@ -319,6 +328,7 @@ img.js {
     border-radius: 5px;
     width: 65px;
     height: 65px;
+    margin-top: 150px;
 }
 
 img.ts {
@@ -326,6 +336,7 @@ img.ts {
     max-height: 100%;
     width: 65px;
     height: 65px;
+    margin-top: 150px;
 }
 
 img.html {
@@ -333,6 +344,7 @@ img.html {
     max-height: 100%;
     width: 85px;
     height: 85px;
+    margin-top: 150px;
 }
 
 img.css {
@@ -340,16 +352,28 @@ img.css {
     max-height: 100%;
     width: 75px;
     height: 75px;
+    margin-top: 150px;
 }
 
 img.godot {
     width: 80px;
     height: 80px;
+    margin-top: 150px;
 }
 
 img.appstore {
     width: 65px;
     height: 65px;
+}
+
+img.godot2 {
+    width: 80px;
+    height: 80px;
+}
+
+img.react2 {
+    width: 70px;
+    height: 60px;
 }
 
 div#container {
