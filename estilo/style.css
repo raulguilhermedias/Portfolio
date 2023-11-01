@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
 
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Jost', Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
     padding: 0px;
 }
@@ -27,26 +28,38 @@ header > h1, p {
 }
 
 section#home {
-    background-image: url('../imagens/e6a174e13938913a57d287759120cbcb.jpg');
+    background-image: url('../imagens/hill.png');
     background-position: right center;
     height: 700px;
     background-size: cover;
     background-attachment: fixed;
 }
 
+section#home > h1 {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.753);
+    color: rgb(255, 255, 255);
+}
+
+section#profile {
+    text-align: center;
+}
+
 section > h1 {
     color: aliceblue;
     text-align: center;
     font-size: larger;
+    font-size: 40px;
 }
 
 section.skills {
-    margin-top: -98px;
+    margin-top: -78px;
     white-space: nowrap;
     letter-spacing: 4px;
     position: absolute;
     color: #fff;
 }
+
+
 
 main {
     width: 100%;
@@ -63,6 +76,7 @@ main > h1, p {
 article > h1 {
     text-align: center;
     color: #0047FF;
+    font-size: 36px;
 }
 
 div#linkedin {
@@ -75,8 +89,55 @@ div#linkedin {
     font-size: 20px;
     color: #000;
     padding-top: 5px;
-    background-color: aliceblue;
+    background-color: rgb(0, 0, 0);
     margin-left: 10px;
+    display: inline-block;
+}
+
+div#x {
+    border-radius: 100%;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    vertical-align: middle;
+    transition: 0.5s ease-out;
+    font-size: 20px;
+    color: #000;
+    padding-top: 5px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 10px;
+    display: inline-block;
+}
+
+div#instagram {
+    border-radius: 100%;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    vertical-align: middle;
+    transition: 0.5s ease-out;
+    font-size: 20px;
+    color: #000;
+    padding-top: 5px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 10px;
+    display: inline-block;
+}
+
+div#photo {
+    border-radius: 100%;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    vertical-align: middle;
+    transition: 0.5s ease-out;
+    font-size: 20px;
+    color: transparent;
+    padding-top: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: #0047FF;
+    display: inline-block;
 }
 
 div.pad-3 {
@@ -115,7 +176,7 @@ div#js {
     vertical-align: middle;
     transition: 0.5s ease-out;
     font-size: 20px;
-    color: transparent;rgb(255, 153, 0)
+    color: transparent;
     padding-top: 5px;
     background: linear-gradient(135deg,rgb(255, 251, 0) 0%,rgb(255, 153, 0) 100%);
     display: inline-flex;
@@ -192,6 +253,14 @@ div#godot {
     justify-content: center;
 }
 
+div#app > h1 {
+    font-size: 48px;
+}
+
+div#app > p {
+    font-size: 20px;
+}
+
 div#playstore {
     border-radius: 15px;
     text-align: center;
@@ -207,7 +276,7 @@ div#playstore {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-right: 185px;
+    margin-right: 100px;
     margin-left: 0px;
 }
 
@@ -223,8 +292,8 @@ div#react2 {
     padding-top: 5px;
     background: linear-gradient(135deg,rgb(102, 219, 251) 0%,rgb(23, 112, 115) 100%);
     display: inline-flex;
-    margin-right: 185px;
-    margin-left: 185px;
+    margin-right: 100px;
+    margin-left: 100px;
     align-items: center;
     justify-content: center;
 }
@@ -244,7 +313,7 @@ div#appstore {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-left: 185px;
+    margin-left: 100px;
 }
 
 div#website {
@@ -255,6 +324,14 @@ div#website {
     margin-right: 100px;
     display: inline-block;
     box-sizing: border-box;
+}
+
+div#website > h1 {
+    font-size: 48px;
+}
+
+div#website > p {
+    font-size: 20px;
 }
 
 div#web {
@@ -285,6 +362,14 @@ div#games {
     box-sizing: border-box;
 }
 
+div#games > h1 {
+    font-size: 48px;
+}
+
+div#games > p {
+    font-size: 20px;
+}
+
 div#game {
     border-radius: 15px;
     text-align: center;
@@ -303,8 +388,12 @@ div#game {
     margin-left: 10px;
 }
 
+div#pad6 {
+    padding: 150px;
+}
+
 div#pad5 {
-    padding: 200px;
+    padding: 100px;
 }
 
 div#pad2 {
@@ -315,12 +404,43 @@ div#pad1 {
     padding: 20px;
 }
 
+img.linkedin {
+    max-width: 100%;
+    max-height: 100%;
+    width: 50px;
+    height: 50px;
+    margin-top: 7px;
+}
+
+img.x {
+    max-width: 100%;
+    max-height: 100%;
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+}
+
+img.instagram {
+    max-width: 100%;
+    max-height: 100%;
+    width: 50px;
+    height: 50px;
+    margin-top: 8px;
+}
+
+img.photo {
+    max-width: 100%;
+    max-height: 100%;
+    width: 300px;
+    height: 500px;
+}
+
 img.react {
     max-width: 100%;
     max-height: 100%;
     width: 70px;
     height: 60px;
-    margin-top: 150px;
+    margin-top: 160px;
 }
 
 img.js {
@@ -329,7 +449,7 @@ img.js {
     border-radius: 5px;
     width: 65px;
     height: 65px;
-    margin-top: 150px;
+    margin-top: 160px;
 }
 
 img.ts {
@@ -337,7 +457,7 @@ img.ts {
     max-height: 100%;
     width: 65px;
     height: 65px;
-    margin-top: 150px;
+    margin-top: 160px;
 }
 
 img.html {
@@ -345,7 +465,7 @@ img.html {
     max-height: 100%;
     width: 85px;
     height: 85px;
-    margin-top: 150px;
+    margin-top: 160px;
 }
 
 img.css {
@@ -353,23 +473,33 @@ img.css {
     max-height: 100%;
     width: 75px;
     height: 75px;
-    margin-top: 150px;
+    margin-top: 160px;
 }
 
 img.godot {
-    width: 80px;
-    height: 80px;
-    margin-top: 150px;
+    width: 70px;
+    height: 70px;
+    margin-top: 160px;
+}
+
+img.playstore {
+    width: 60px;
+    height: 60px; 
 }
 
 img.appstore {
+    width: 55px;
+    height: 55px;
+}
+
+img.web {
     width: 65px;
     height: 65px;
 }
 
 img.godot2 {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
 }
 
 img.react2 {
