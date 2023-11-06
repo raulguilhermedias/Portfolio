@@ -60,10 +60,14 @@ section.skills {
     color: #fff;
 }
 
-
+section#contact {
+    width: 100vw;
+    height: 1300px;
+    background-color: #02050C;
+}
 
 main {
-    width: 100%;
+    width: 100vw;
     height: 3000px;
     background-color: #D9D9D9;
     margin: 0px;
@@ -83,8 +87,8 @@ article > h1 {
 div#linkedin {
     border-radius: 100%;
     text-align: center;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     vertical-align: middle;
     transition: 0.5s ease-out;
     font-size: 20px;
@@ -98,8 +102,8 @@ div#linkedin {
 div#x {
     border-radius: 100%;
     text-align: center;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     vertical-align: middle;
     transition: 0.5s ease-out;
     font-size: 20px;
@@ -113,8 +117,23 @@ div#x {
 div#instagram {
     border-radius: 100%;
     text-align: center;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    transition: 0.5s ease-out;
+    font-size: 20px;
+    color: #000;
+    padding-top: 5px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 10px;
+    display: inline-block;
+}
+
+div#github {
+    border-radius: 100%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
     vertical-align: middle;
     transition: 0.5s ease-out;
     font-size: 20px;
@@ -400,28 +419,45 @@ div#pad1 {
     padding: 20px;
 }
 
+div#contact {
+    text-align: center;
+}
+
+div#contact > h1, p {
+    color: #D9D9D9;
+    font-size: 20px;
+}
+
 img.linkedin {
     max-width: 100%;
     max-height: 100%;
-    width: 50px;
-    height: 50px;
-    margin-top: 7px;
+    width: 35px;
+    height: 35px;
+    margin-top: 4px;
 }
 
 img.x {
     max-width: 100%;
     max-height: 100%;
-    width: 35px;
-    height: 35px;
-    margin-top: 15px;
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
 }
 
 img.instagram {
     max-width: 100%;
     max-height: 100%;
-    width: 50px;
-    height: 50px;
-    margin-top: 8px;
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+}
+
+img.github {
+    max-width: 100%;
+    max-height: 100%;
+    width: 38px;
+    height: 38px;
+    margin-top: 3px;
 }
 
 img.photo {
@@ -507,4 +543,42 @@ img.react2 {
 
 div#container {
     text-align: center;
+}
+
+input#name {
+    width: 245px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+input#email {
+    width: 245px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+input#phonenumber {
+    width: 245px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+input#subject {
+    width: 245px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+input#message {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+input#send {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #0047FF;
+    color: #ffffff;
 }
